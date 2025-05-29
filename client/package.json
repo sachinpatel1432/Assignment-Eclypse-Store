@@ -2,21 +2,19 @@
   "name": "ecommerce-eclypse-client",
   "version": "1.0.0",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "serve -s dist"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
     "ajv": "^8.17.1",
     "ajv-keywords": "^5.1.0",
     "axios": "^1.9.0",
-    "express": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^7.6.1",
-    "react-scripts": "^5.0.1"
+    "react-router-dom": "^7.6.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
@@ -31,18 +29,7 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.0.4",
-    "vite": "^4.5.14"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "vite": "^4.5.14",
+    "serve": "^14.2.0"
   }
 }
