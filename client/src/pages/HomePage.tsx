@@ -214,7 +214,7 @@ const HomePage: React.FC = () => {
           Contact Us
         </button>
       </section>
-      
+
     </div>
   );
 };
